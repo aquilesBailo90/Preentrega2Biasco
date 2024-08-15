@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="shortcut icon" href="../multimedia/pacu/pacú_8bit.png" type="image/x-icon">
+    <title>Pacú - Contacto</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <a href="../index.html"><img class="pacu_logo" src="../multimedia/pacu/pacú_8bit.png" alt="logo pacú"></a>
+        <div class="titulo_mas_menu">
+            <h1 class="p_mayus">Pacú</h1>
+            <nav class="menu_ppal">
+                <a href="ninos.html">Niños</a>
+                <a href="ninas.html">Niñas</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="marcas.html">Nuestras Marcas</a>
+            </nav>
+        </div>
+        <div class="menu_sec">
+            <input class="buscador" type="text" value="Buscador">
+            <button class="ir boton">Ir</button>
+            <button class="mi_pacu boton">Mi Pacú</button>
+            <button class="carrito boton">Carrito</button>
+        </div>
+    </header>
+
+    <main>
+        <section form_contacto>
+            <div>
+                <img src="../multimedia/contacto.jpg" alt="imagen de contacto">
+                <div class="formulario">
+                    <form action="submit" method="post">
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <label for="telefono">Telefono</label>
+                        <input type="text" id="telefono" name="telefono">
+                        <label for="mail">Mail</label>
+                        <input type="email" id="mail" name="mail">
+                        <label for="t_con">Tipo de Consulta</label>
+                        <select id="t_con" name="t_con">
+                            <option value="reclamo">Reclamo</option>
+                            <option value="talles_especiales">Talles Especiales</option>
+                            <option value="presupuesto">Presupuesto</option>
+                            <option value="Otros">Otros</option>                    
+                        </select>
+                        <label for="comentarios">Comentarios</label>
+                        <textarea name="comentarios" id="comentarios" rows="10" cols="50" placeholder="Escibe tu comentarios aquí"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="pie_de_pag">
+        <div class="redes">
+            <a href="https://www.instagram.com/"><img src="../multimedia/iconos redes/ig.png" alt="icono instagram"></a>
+            <a href="https://www.instagram.com/"><img src="../multimedia/iconos redes/facebook-round-color-icon.png"
+                    alt="icono facebook"></a>
+            <a href="https://x.com/?lang=en"><img src="../multimedia/iconos redes/x-social-media-round-icon.png"
+                    alt="icono X"></a>
+            <a href="https://www.tiktok.com/en/"><img src="../multimedia/iconos redes/tiktok-color-icon.png"
+                    alt="icono tiktok"></a>
+        </div>
+        <p>Pacú® - Ropa para infantes - De Córdoba para el mundo</p>
+
+    </footer>
+
+</body>
+
+</html>

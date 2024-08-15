@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Cairo Play", sans-serif;  
+}
+
+.encabezado {
+  position: sticky;
+  top: 0%;
+  background-color: #406651;
+}
+
+.titulo_mas_menu {
+
+  width: 70%;
+  height: 11%;
+  position: absolute;
+  top: 0%;
+  left: 14%;
+  text-align: center;
+}
+
+.p_mayus {
+  text-align: center;
+  color: #438F91;
+}
+
+.menu_sec {
+  width: 23%;
+  position: absolute;
+  top: 3%;
+  left: 76.4%;
+  text-align: right;
+}
+
+.pacu_logo {
+  margin-top:0.5em;
+  width: 5%;
+  height: 5%;
+}
+
+
+.menu_ppal a {
+  border: solid 4px #E6691E;
+  border-radius: 2em;
+  padding: 0.2em;
+  background-color: #1EE4E6;
+  background-size: 250%;
+  color: #E6691E;
+  font-size: 1.3em;
+}
+
+.boton {
+  border: solid 4px #E6691E;
+  background: none;
+  background-color: #1EE4E6;
+  color: #E6691E;
+  font-size: 1.3em;
+  padding: 0.5em;
+  border-radius: 2em;
+}
+
+.buscador {
+  border: solid 4px #E6691E;
+  background-color: #1EE4E6;
+}
+
+.principal {
+  background-color: #438F91;
+  margin-top: 10em;
+  text-align: center;
+  padding-left: 30%;
+}
+
+.descripcion {
+  color: #E69E1E;
+  font-size: 1.5em;
+  width: 50%;
+  text-align: justify;
+  margin-left: 0.5%;
+  font-weight: bolder;
+  padding-top: 2em;
+}
+
+
+.gal_index {
+  width: 100%;
+  margin-top: 10em;  
+}
+
+.gal_index img{
+  margin-left: -50% ;
+  border: solid 3px #E6691E;
+  border-radius: 5em;
+
+}
+
+.gal_index iframe{
+  display: block;
+  text-align: center;
+  margin-left: -13%;
+  margin-top: 10em; 
+  border: solid 3px #E6691E;
+  border-radius: 5em;
+}
+
+.pie_de_pag{
+  background-color: #438F91;
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 0.5em;  
+}
+
+
+.pie_de_pag p{
+  font-size: 1.5em;
+}
+
+.redes a img{
+  height: 50px;
+  width: 50px;
+}
+
